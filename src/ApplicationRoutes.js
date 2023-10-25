@@ -31,6 +31,9 @@ export const ApplicationRoutes = () => (//definindo o que e a ApplicationRoutes
             
             <Route exact path="/movie/:id" Component={MovieDetail}/>
 
+            <Route exact path="/favorites" Component={MovieDetail}/>
+
+
         </Routes>
 
     </>
